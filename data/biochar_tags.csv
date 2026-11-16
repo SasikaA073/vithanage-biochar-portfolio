@@ -80,7 +80,7 @@ P044,Feedstock,Walnut shell,Crop & herbaceous residues,,yes
 P044,Contaminant,arsenic,"Metalloids (As, Sb)",Inorganic,yes
 P046,Modification,nanocomposite,"Metal-oxide, magnetic & nano-composites",,yes
 P046,Contaminant,antibiotics,Antibiotics,Organic,no
-P047,Feedstock,Mimosa pigra (invasive),Invasive & wild plants,,yes
+P047,Feedstock,Invasive plant (species not stated),Invasive & wild plants,,no
 P047,Modification,citric acid modification,Chemical activation & functionalisation,,yes
 P047,Contaminant,chromium,Heavy metals,Inorganic,yes
 P048,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
@@ -95,8 +95,7 @@ P050,Contaminant,lead,Heavy metals,Inorganic,yes
 P050,Contaminant,metoprolol,Pharmaceuticals & personal-care products,Organic,yes
 P051,Contaminant,PPCPs,Pharmaceuticals & personal-care products,Organic,no
 P052,Feedstock,Coconut shell,Crop & herbaceous residues,,yes
-P052,Contaminant,nitrate,"Anions, nutrients & salinity",Inorganic,yes
-P052,Contaminant,phosphate,"Anions, nutrients & salinity",Inorganic,yes
+P052,Contaminant,nutrients (eutrophication),"Anions, nutrients & salinity",Inorganic,no
 P053,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P053,Contaminant,oil/petroleum,Petroleum hydrocarbons & PAHs,Organic,yes
 P054,Feedstock,Cinnamon wood,Woody & forestry,,yes
@@ -109,7 +108,6 @@ P059,Contaminant,fluoride,"Anions, nutrients & salinity",Inorganic,yes
 P060,Feedstock,Mimosa pigra (invasive),Invasive & wild plants,,yes
 P060,Modification,amino functionalisation,Chemical activation & functionalisation,,yes
 P060,Contaminant,chromium,Heavy metals,Inorganic,yes
-P061,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P061,Modification,colloidal biochar,Size engineering (colloidal / nano / milled),,yes
 P061,Contaminant,ciprofloxacin,Antibiotics,Organic,yes
 P062,Feedstock,Tea waste,Food & kitchen waste,,yes
@@ -162,9 +160,8 @@ P084,Feedstock,Municipal solid waste,Municipal & urban waste,,yes
 P084,Contaminant,landfill leachate,Mixed waste streams,Other / mixed,no
 P085,Feedstock,Cinnamon wood,Woody & forestry,,yes
 P085,Contaminant,sulfamethoxazole,Antibiotics,Organic,yes
-P086,Feedstock,Mimosa pigra (invasive),Invasive & wild plants,,yes
+P086,Feedstock,Invasive plant (species not stated),Invasive & wild plants,,no
 P086,Contaminant,chromium,Heavy metals,Inorganic,yes
-P087,Feedstock,Cinnamon wood,Woody & forestry,,yes
 P087,Contaminant,sulfamethoxazole,Antibiotics,Organic,yes
 P088,Modification,nano-biochar,Size engineering (colloidal / nano / milled),,yes
 P089,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
@@ -184,11 +181,10 @@ P093,Contaminant,arsenic,"Metalloids (As, Sb)",Inorganic,yes
 P094,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P094,Contaminant,caffeine,Pharmaceuticals & personal-care products,Organic,yes
 P095,Contaminant,steroidal estrogens,Pharmaceuticals & personal-care products,Organic,yes
-P096,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P096,Modification,colloidal biochar,Size engineering (colloidal / nano / milled),,yes
 P096,Modification,nano-biochar,Size engineering (colloidal / nano / milled),,yes
 P096,Contaminant,oxytetracycline,Antibiotics,Organic,yes
-P096,Contaminant,nitrate,"Anions, nutrients & salinity",Inorganic,yes
+P096,Contaminant,ammonium,"Anions, nutrients & salinity",Inorganic,yes
 P096,Contaminant,phosphate,"Anions, nutrients & salinity",Inorganic,yes
 P097,Feedstock,Municipal solid waste,Municipal & urban waste,,yes
 P097,Contaminant,landfill leachate,Mixed waste streams,Other / mixed,no
@@ -239,13 +235,11 @@ P114,Contaminant,lead,Heavy metals,Inorganic,yes
 P116,Feedstock,Municipal solid waste,Municipal & urban waste,,yes
 P116,Modification,red earth clay composite,Clay & mineral composites,,yes
 P116,Contaminant,arsenic,"Metalloids (As, Sb)",Inorganic,yes
-P117,Feedstock,Municipal solid waste,Municipal & urban waste,,yes
-P117,Modification,red earth clay composite,Clay & mineral composites,,yes
+P117,Modification,clay composite,Clay & mineral composites,,yes
 P117,Contaminant,arsenic,"Metalloids (As, Sb)",Inorganic,yes
 P118,Feedstock,Municipal solid waste,Municipal & urban waste,,yes
-P118,Modification,clay composite,Clay & mineral composites,,yes
+P118,Modification,unspecified modification,Method not stated,,no
 P118,Contaminant,antibiotics,Antibiotics,Organic,no
-P119,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P119,Modification,colloidal biochar,Size engineering (colloidal / nano / milled),,yes
 P119,Contaminant,oxytetracycline,Antibiotics,Organic,yes
 P120,Feedstock,MSW compost residue,Municipal & urban waste,,yes
@@ -254,13 +248,11 @@ P121,Modification,nano-biochar,Size engineering (colloidal / nano / milled),,yes
 P123,Feedstock,Tea waste,Food & kitchen waste,,yes
 P123,Modification,steam activation,Physical activation,,yes
 P123,Contaminant,caffeine,Pharmaceuticals & personal-care products,Organic,yes
-P124,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
+P124,Feedstock,Woody biomass (species not stated),Woody & forestry,,no
 P124,Modification,colloidal biochar,Size engineering (colloidal / nano / milled),,yes
 P124,Contaminant,antibiotics,Antibiotics,Organic,no
 P124,Contaminant,pesticides,Pesticides & herbicides,Organic,no
-P125,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P125,Modification,colloidal biochar,Size engineering (colloidal / nano / milled),,yes
-P125,Modification,halloysite composite,Clay & mineral composites,,yes
 P125,Contaminant,ciprofloxacin,Antibiotics,Organic,yes
 P126,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P126,Contaminant,metals,Heavy metals,Inorganic,no
@@ -272,7 +264,7 @@ P129,Contaminant,"RO reject (hardness, fluoride, ions)","Anions, nutrients & sal
 P130,Contaminant,sulfonamides,Antibiotics,Organic,no
 P130,Contaminant,tetracyclines,Antibiotics,Organic,no
 P132,Contaminant,arsenic,"Metalloids (As, Sb)",Inorganic,yes
-P135,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
+P135,Feedstock,Woody biomass (species not stated),Woody & forestry,,no
 P135,Contaminant,nickel,Heavy metals,Inorganic,yes
 P135,Contaminant,chromium,Heavy metals,Inorganic,yes
 P135,Contaminant,manganese,Heavy metals,Inorganic,yes
@@ -286,7 +278,7 @@ P138,Contaminant,lead,Heavy metals,Inorganic,yes
 P138,Contaminant,copper,Heavy metals,Inorganic,yes
 P138,Contaminant,antimony,"Metalloids (As, Sb)",Inorganic,yes
 P139,Feedstock,Rice husk,Crop & herbaceous residues,,yes
-P139,Modification,unspecified modification,Chemical activation & functionalisation,,yes
+P139,Modification,unspecified modification,Method not stated,,no
 P139,Contaminant,carbofuran,Pesticides & herbicides,Organic,yes
 P140,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P140,Contaminant,chromium,Heavy metals,Inorganic,yes
@@ -316,7 +308,7 @@ P152,Contaminant,sulfamethazine,Antibiotics,Organic,yes
 P153,Feedstock,Tea waste,Food & kitchen waste,,yes
 P153,Contaminant,carbofuran,Pesticides & herbicides,Organic,yes
 P155,Feedstock,Rice husk,Crop & herbaceous residues,,yes
-P155,Modification,steam activation,Physical activation,,yes
+P155,Modification,unspecified modification,Method not stated,,no
 P155,Contaminant,glyphosate,Pesticides & herbicides,Organic,yes
 P156,Feedstock,Tea waste,Food & kitchen waste,,yes
 P156,Contaminant,chromium,Heavy metals,Inorganic,yes
@@ -325,7 +317,7 @@ P158,Contaminant,"RO reject (hardness, fluoride, ions)","Anions, nutrients & sal
 P159,Feedstock,Municipal solid waste,Municipal & urban waste,,yes
 P159,Contaminant,landfill leachate,Mixed waste streams,Other / mixed,no
 P159,Contaminant,VOCs,VOCs & chlorinated solvents,Organic,no
-P160,Feedstock,Burcucumber (Sicyos angulatus),Invasive & wild plants,,yes
+P160,Feedstock,Invasive plant (species not stated),Invasive & wild plants,,no
 P160,Modification,steam activation,Physical activation,,yes
 P160,Contaminant,sulfamethazine,Antibiotics,Organic,yes
 P161,Feedstock,Date palm waste,Crop & herbaceous residues,,yes
@@ -333,7 +325,6 @@ P162,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P162,Contaminant,nickel,Heavy metals,Inorganic,yes
 P162,Contaminant,chromium,Heavy metals,Inorganic,yes
 P162,Contaminant,manganese,Heavy metals,Inorganic,yes
-P163,Feedstock,Burcucumber (Sicyos angulatus),Invasive & wild plants,,yes
 P163,Modification,acid activation,Chemical activation & functionalisation,,yes
 P163,Contaminant,sulfamethazine,Antibiotics,Organic,yes
 P164,Contaminant,lead,Heavy metals,Inorganic,yes
@@ -345,35 +336,29 @@ P166,Contaminant,trichloroethylene,VOCs & chlorinated solvents,Organic,yes
 P167,Feedstock,Municipal solid waste,Municipal & urban waste,,yes
 P167,Contaminant,benzene,VOCs & chlorinated solvents,Organic,yes
 P168,Contaminant,glyphosate,Pesticides & herbicides,Organic,yes
-P169,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
+P169,Feedstock,Woody biomass (species not stated),Woody & forestry,,no
 P169,Contaminant,crystal violet,Dyes,Organic,yes
 P171,Feedstock,Tea waste,Food & kitchen waste,,yes
 P171,Modification,steam activation,Physical activation,,yes
 P171,Contaminant,sulfamethazine,Antibiotics,Organic,yes
 P172,Feedstock,Burcucumber (Sicyos angulatus),Invasive & wild plants,,yes
 P172,Contaminant,sulfamethazine,Antibiotics,Organic,yes
-P173,Feedstock,Burcucumber (Sicyos angulatus),Invasive & wild plants,,yes
+P173,Feedstock,Invasive plant (species not stated),Invasive & wild plants,,no
 P173,Contaminant,sulfamethazine,Antibiotics,Organic,yes
 P174,Feedstock,Buffalo weed (Ambrosia trifida),Invasive & wild plants,,yes
 P174,Contaminant,trichloroethylene,VOCs & chlorinated solvents,Organic,yes
 P175,Contaminant,carbofuran,Pesticides & herbicides,Organic,yes
-P176,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P176,Contaminant,metals,Heavy metals,Inorganic,no
-P177,Feedstock,Soybean stover,Crop & herbaceous residues,,yes
-P177,Contaminant,lead,Heavy metals,Inorganic,yes
-P177,Contaminant,copper,Heavy metals,Inorganic,yes
-P177,Contaminant,antimony,"Metalloids (As, Sb)",Inorganic,yes
-P178,Contaminant,lead,Heavy metals,Inorganic,yes
-P178,Contaminant,copper,Heavy metals,Inorganic,yes
-P179,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
+P177,Contaminant,metals,Heavy metals,Inorganic,no
+P178,Contaminant,metals,Heavy metals,Inorganic,no
 P179,Contaminant,metals,Heavy metals,Inorganic,no
 P180,Feedstock,Pine needle,Woody & forestry,,yes
 P180,Contaminant,trichloroethylene,VOCs & chlorinated solvents,Organic,yes
 P183,Modification,nitrogen doping,Chemical activation & functionalisation,,yes
 P184,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
 P184,Contaminant,chromium,Heavy metals,Inorganic,yes
-P185,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
+P185,Feedstock,Woody biomass (species not stated),Woody & forestry,,no
 P185,Contaminant,metals,Heavy metals,Inorganic,no
-P186,Feedstock,Gliricidia sepium (dendro bioenergy waste),Woody & forestry,,yes
+P186,Feedstock,Woody biomass (species not stated),Woody & forestry,,no
 P186,Contaminant,nickel,Heavy metals,Inorganic,yes
 P187,Contaminant,metals,Heavy metals,Inorganic,no

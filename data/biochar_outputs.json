@@ -652,7 +652,7 @@
   "output_type": "Research article",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Mimosa pigra (invasive)",
+  "feedstocks": "Invasive plant (species not stated)",
   "modifications": "citric acid modification",
   "contaminants": "chromium",
   "doi": "10.1007/s11270-023-06456-9"
@@ -724,7 +724,7 @@
   "themes": "Contaminant remediation",
   "feedstocks": "Coconut shell",
   "modifications": "",
-  "contaminants": "nitrate; phosphate",
+  "contaminants": "nutrients (eutrophication)",
   "doi": ""
  },
  {
@@ -848,7 +848,7 @@
   "output_type": "Research article",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "",
   "modifications": "colloidal biochar",
   "contaminants": "ciprofloxacin",
   "doi": "10.1016/j.chemosphere.2022.133984"
@@ -1198,7 +1198,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Mimosa pigra (invasive)",
+  "feedstocks": "Invasive plant (species not stated)",
   "modifications": "",
   "contaminants": "chromium",
   "doi": ""
@@ -1212,7 +1212,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Cinnamon wood",
+  "feedstocks": "",
   "modifications": "",
   "contaminants": "sulfamethoxazole",
   "doi": ""
@@ -1338,9 +1338,9 @@
   "output_type": "Research article",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "",
   "modifications": "colloidal biochar; nano-biochar",
-  "contaminants": "oxytetracycline; nitrate; phosphate",
+  "contaminants": "oxytetracycline; ammonium; phosphate",
   "doi": "10.1016/j.envpol.2020.115683"
  },
  {
@@ -1632,8 +1632,8 @@
   "output_type": "Book chapter",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Municipal solid waste",
-  "modifications": "red earth clay composite",
+  "feedstocks": "",
+  "modifications": "clay composite",
   "contaminants": "arsenic",
   "doi": "10.1201/9781351046633-221"
  },
@@ -1647,7 +1647,7 @@
   "medium": "Water",
   "themes": "Contaminant remediation",
   "feedstocks": "Municipal solid waste",
-  "modifications": "clay composite",
+  "modifications": "unspecified modification",
   "contaminants": "antibiotics",
   "doi": ""
  },
@@ -1660,7 +1660,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "",
   "modifications": "colloidal biochar",
   "contaminants": "oxytetracycline",
   "doi": ""
@@ -1730,7 +1730,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "Woody biomass (species not stated)",
   "modifications": "colloidal biochar",
   "contaminants": "antibiotics; pesticides",
   "doi": ""
@@ -1744,8 +1744,8 @@
   "output_type": "Conference / proceedings",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
-  "modifications": "colloidal biochar; halloysite composite",
+  "feedstocks": "",
+  "modifications": "colloidal biochar",
   "contaminants": "ciprofloxacin",
   "doi": ""
  },
@@ -1884,7 +1884,7 @@
   "output_type": "Research article",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "Woody biomass (species not stated)",
   "modifications": "",
   "contaminants": "nickel; chromium; manganese",
   "doi": "10.1007/s11368-015-1243-y"
@@ -2165,7 +2165,7 @@
   "medium": "Water",
   "themes": "Contaminant remediation",
   "feedstocks": "Rice husk",
-  "modifications": "steam activation",
+  "modifications": "unspecified modification",
   "contaminants": "glyphosate",
   "doi": ""
  },
@@ -2234,7 +2234,7 @@
   "output_type": "Research article",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Burcucumber (Sicyos angulatus)",
+  "feedstocks": "Invasive plant (species not stated)",
   "modifications": "steam activation",
   "contaminants": "sulfamethazine",
   "doi": "10.1016/j.jhazmat.2015.02.046"
@@ -2276,7 +2276,7 @@
   "output_type": "Research article",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Burcucumber (Sicyos angulatus)",
+  "feedstocks": "",
   "modifications": "acid activation",
   "contaminants": "sulfamethazine",
   "doi": "10.1007/s11356-014-3434-2"
@@ -2360,7 +2360,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Water",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "Woody biomass (species not stated)",
   "modifications": "",
   "contaminants": "crystal violet",
   "doi": ""
@@ -2416,7 +2416,7 @@
   "output_type": "Research article",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Burcucumber (Sicyos angulatus)",
+  "feedstocks": "Invasive plant (species not stated)",
   "modifications": "",
   "contaminants": "sulfamethazine",
   "doi": "10.1016/j.chemosphere.2014.04.040"
@@ -2458,7 +2458,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "",
   "modifications": "",
   "contaminants": "metals",
   "doi": ""
@@ -2472,9 +2472,9 @@
   "output_type": "Conference / proceedings",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Soybean stover",
+  "feedstocks": "",
   "modifications": "",
-  "contaminants": "lead; copper; antimony",
+  "contaminants": "metals",
   "doi": ""
  },
  {
@@ -2488,7 +2488,7 @@
   "themes": "Contaminant remediation",
   "feedstocks": "",
   "modifications": "",
-  "contaminants": "lead; copper",
+  "contaminants": "metals",
   "doi": ""
  },
  {
@@ -2500,7 +2500,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "",
   "modifications": "",
   "contaminants": "metals",
   "doi": ""
@@ -2584,7 +2584,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "Woody biomass (species not stated)",
   "modifications": "",
   "contaminants": "metals",
   "doi": ""
@@ -2598,7 +2598,7 @@
   "output_type": "Conference / proceedings",
   "medium": "Soil",
   "themes": "Contaminant remediation",
-  "feedstocks": "Gliricidia sepium (dendro bioenergy waste)",
+  "feedstocks": "Woody biomass (species not stated)",
   "modifications": "",
   "contaminants": "nickel",
   "doi": ""

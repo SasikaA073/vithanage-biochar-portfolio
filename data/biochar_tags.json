@@ -650,10 +650,10 @@
  {
   "id": "P047",
   "facet": "Feedstock",
-  "value": "Mimosa pigra (invasive)",
+  "value": "Invasive plant (species not stated)",
   "group": "Invasive & wild plants",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P047",
@@ -770,18 +770,10 @@
  {
   "id": "P052",
   "facet": "Contaminant",
-  "value": "nitrate",
+  "value": "nutrients (eutrophication)",
   "group": "Anions, nutrients & salinity",
   "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P052",
-  "facet": "Contaminant",
-  "value": "phosphate",
-  "group": "Anions, nutrients & salinity",
-  "nature": "Inorganic",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P053",
@@ -877,14 +869,6 @@
   "value": "chromium",
   "group": "Heavy metals",
   "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P061",
-  "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
-  "group": "Woody & forestry",
-  "nature": "",
   "specific": "yes"
  },
  {
@@ -1306,10 +1290,10 @@
  {
   "id": "P086",
   "facet": "Feedstock",
-  "value": "Mimosa pigra (invasive)",
+  "value": "Invasive plant (species not stated)",
   "group": "Invasive & wild plants",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P086",
@@ -1317,14 +1301,6 @@
   "value": "chromium",
   "group": "Heavy metals",
   "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P087",
-  "facet": "Feedstock",
-  "value": "Cinnamon wood",
-  "group": "Woody & forestry",
-  "nature": "",
   "specific": "yes"
  },
  {
@@ -1481,14 +1457,6 @@
  },
  {
   "id": "P096",
-  "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
-  "group": "Woody & forestry",
-  "nature": "",
-  "specific": "yes"
- },
- {
-  "id": "P096",
   "facet": "Modification",
   "value": "colloidal biochar",
   "group": "Size engineering (colloidal / nano / milled)",
@@ -1514,7 +1482,7 @@
  {
   "id": "P096",
   "facet": "Contaminant",
-  "value": "nitrate",
+  "value": "ammonium",
   "group": "Anions, nutrients & salinity",
   "nature": "Inorganic",
   "specific": "yes"
@@ -1921,16 +1889,8 @@
  },
  {
   "id": "P117",
-  "facet": "Feedstock",
-  "value": "Municipal solid waste",
-  "group": "Municipal & urban waste",
-  "nature": "",
-  "specific": "yes"
- },
- {
-  "id": "P117",
   "facet": "Modification",
-  "value": "red earth clay composite",
+  "value": "clay composite",
   "group": "Clay & mineral composites",
   "nature": "",
   "specific": "yes"
@@ -1954,10 +1914,10 @@
  {
   "id": "P118",
   "facet": "Modification",
-  "value": "clay composite",
-  "group": "Clay & mineral composites",
+  "value": "unspecified modification",
+  "group": "Method not stated",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P118",
@@ -1966,14 +1926,6 @@
   "group": "Antibiotics",
   "nature": "Organic",
   "specific": "no"
- },
- {
-  "id": "P119",
-  "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
-  "group": "Woody & forestry",
-  "nature": "",
-  "specific": "yes"
  },
  {
   "id": "P119",
@@ -2042,10 +1994,10 @@
  {
   "id": "P124",
   "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "value": "Woody biomass (species not stated)",
   "group": "Woody & forestry",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P124",
@@ -2073,25 +2025,9 @@
  },
  {
   "id": "P125",
-  "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
-  "group": "Woody & forestry",
-  "nature": "",
-  "specific": "yes"
- },
- {
-  "id": "P125",
   "facet": "Modification",
   "value": "colloidal biochar",
   "group": "Size engineering (colloidal / nano / milled)",
-  "nature": "",
-  "specific": "yes"
- },
- {
-  "id": "P125",
-  "facet": "Modification",
-  "value": "halloysite composite",
-  "group": "Clay & mineral composites",
   "nature": "",
   "specific": "yes"
  },
@@ -2186,10 +2122,10 @@
  {
   "id": "P135",
   "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "value": "Woody biomass (species not stated)",
   "group": "Woody & forestry",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P135",
@@ -2299,9 +2235,9 @@
   "id": "P139",
   "facet": "Modification",
   "value": "unspecified modification",
-  "group": "Chemical activation & functionalisation",
+  "group": "Method not stated",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P139",
@@ -2538,10 +2474,10 @@
  {
   "id": "P155",
   "facet": "Modification",
-  "value": "steam activation",
-  "group": "Physical activation",
+  "value": "unspecified modification",
+  "group": "Method not stated",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P155",
@@ -2610,10 +2546,10 @@
  {
   "id": "P160",
   "facet": "Feedstock",
-  "value": "Burcucumber (Sicyos angulatus)",
+  "value": "Invasive plant (species not stated)",
   "group": "Invasive & wild plants",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P160",
@@ -2669,14 +2605,6 @@
   "value": "manganese",
   "group": "Heavy metals",
   "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P163",
-  "facet": "Feedstock",
-  "value": "Burcucumber (Sicyos angulatus)",
-  "group": "Invasive & wild plants",
-  "nature": "",
   "specific": "yes"
  },
  {
@@ -2770,10 +2698,10 @@
  {
   "id": "P169",
   "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "value": "Woody biomass (species not stated)",
   "group": "Woody & forestry",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P169",
@@ -2826,10 +2754,10 @@
  {
   "id": "P173",
   "facet": "Feedstock",
-  "value": "Burcucumber (Sicyos angulatus)",
+  "value": "Invasive plant (species not stated)",
   "group": "Invasive & wild plants",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P173",
@@ -2865,14 +2793,6 @@
  },
  {
   "id": "P176",
-  "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
-  "group": "Woody & forestry",
-  "nature": "",
-  "specific": "yes"
- },
- {
-  "id": "P176",
   "facet": "Contaminant",
   "value": "metals",
   "group": "Heavy metals",
@@ -2881,59 +2801,19 @@
  },
  {
   "id": "P177",
-  "facet": "Feedstock",
-  "value": "Soybean stover",
-  "group": "Crop & herbaceous residues",
-  "nature": "",
-  "specific": "yes"
- },
- {
-  "id": "P177",
   "facet": "Contaminant",
-  "value": "lead",
+  "value": "metals",
   "group": "Heavy metals",
   "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P177",
-  "facet": "Contaminant",
-  "value": "copper",
-  "group": "Heavy metals",
-  "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P177",
-  "facet": "Contaminant",
-  "value": "antimony",
-  "group": "Metalloids (As, Sb)",
-  "nature": "Inorganic",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P178",
   "facet": "Contaminant",
-  "value": "lead",
+  "value": "metals",
   "group": "Heavy metals",
   "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P178",
-  "facet": "Contaminant",
-  "value": "copper",
-  "group": "Heavy metals",
-  "nature": "Inorganic",
-  "specific": "yes"
- },
- {
-  "id": "P179",
-  "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
-  "group": "Woody & forestry",
-  "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P179",
@@ -2986,10 +2866,10 @@
  {
   "id": "P185",
   "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "value": "Woody biomass (species not stated)",
   "group": "Woody & forestry",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P185",
@@ -3002,10 +2882,10 @@
  {
   "id": "P186",
   "facet": "Feedstock",
-  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "value": "Woody biomass (species not stated)",
   "group": "Woody & forestry",
   "nature": "",
-  "specific": "yes"
+  "specific": "no"
  },
  {
   "id": "P186",
