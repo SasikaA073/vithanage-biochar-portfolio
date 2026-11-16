@@ -987,13 +987,13 @@ document.querySelectorAll('#bp-q, #bp-medium, #bp-type, #bp-nature, #bp-eng').fo
           <img class="ig-photo" src="img/profile.jpg" width="76" height="76" alt="">
           <div>
             <p class="ig-eyebrow">Biochar research pathways</p>
-            <p class="ig-title">From feedstock to contaminant</p>
+            <p class="ig-title">From feedstock to application</p>
           </div>
         </div>
-        <p class="ig-lead">Each band follows papers from the biomass the biochar was made from, through whether it was used pristine or engineered, to the type of contaminant it targeted. Band width is the number of papers.</p>
+        <p class="ig-lead">Each band follows papers from the biomass the biochar was made from, through whether it was used pristine or engineered, to what it was used for: the type of contaminant targeted or, for agronomy studies, crop growth and soil health. Band width is the number of papers.</p>
         <p class="cz-hint">Swipe the diagram sideways to see all of it.</p>
-        <div class="cz-scroll"><div class="fl-box" id="flow-box" role="img" aria-label="Flow diagram linking feedstock groups to pristine or engineered biochar and then to contaminant types"></div></div>
-        <p class="ig-foot" id="flow-foot">Based on the outputs that state both a feedstock and a target contaminant; reviews and agronomy papers are not included. A paper with several feedstocks, treatments or contaminants is split evenly across them, so node totals are rounded.</p>
+        <div class="cz-scroll"><div class="fl-box" id="flow-box" role="img" aria-label="Flow diagram linking feedstock groups to pristine or engineered biochar and then to contaminant types or crop growth and soil health"></div></div>
+        <p class="ig-foot" id="flow-foot">Based on original studies that state both a feedstock and a target contaminant, plus original agronomy studies. Reviews, book chapters and books are not included. A paper with several feedstocks, treatments or targets is split evenly across them, so totals are rounded.</p>
       </div>
       <p class="cz-dl"><a href="img/infographic-flow.png" download="vithanage-biochar-flow.png">Download this view (PNG)</a></p>
     </div>
@@ -1104,34 +1104,56 @@ document.querySelectorAll('#bp-q, #bp-medium, #bp-type, #bp-nature, #bp-eng').fo
 
   /* ---------- Flow diagram ---------- */
   const tip = (box) => { let t = box.querySelector('.fl-tip'); if (!t) { t = el('div', 'fl-tip'); t.hidden = true; box.append(t); } return t; };
+  const AGRO = 'Crop growth & soil health', NOFEED = 'Feedstock not stated';
+  const flowOutputs = () => {
+    const m = {};
+    dash.data('tags').data.forEach((t) => {
+      const o = m[t.id] = m[t.id] || { F: new Set(), M: new Set(), C: new Set() };
+      if (t.facet === 'Feedstock') o.F.add(FEED[t.group]);
+      else if (t.facet === 'Modification') o.M.add(MOD[t.group]);
+      else o.C.add(CON[t.group][0]);
+    });
+    const res = [];
+    dash.data('outputs').data.forEach((r) => {
+      const o = m[r.id] || { F: new Set(), M: new Set(), C: new Set() };
+      const agro = String(r.themes).includes('Agronomy') && !['Review', 'Book chapter', 'Book'].includes(r.output_type);
+      if (!(o.F.size && o.C.size) && !agro) return;
+      const F = o.F.size ? o.F : new Set([NOFEED]);
+      const C = new Set(o.C); if (agro) C.add(AGRO);
+      res.push({ F, M: o.M, C, agro });
+    });
+    return res;
+  };
   window.drawFlow = () => {
     const box = document.getElementById('flow-box');
     if (!box || box.closest('[hidden]') || !d3.sankey) return;
-    const outs = byOutput();
+    const outs = flowOutputs();
     const nodes = new Map(), links = new Map();
     const node = (key, name, col, color) => { if (!nodes.has(key)) nodes.set(key, { key, name, col, color }); return key; };
     outs.forEach((o) => {
       const F = [...o.F], M = o.M.size ? [...o.M] : ['Pristine biochar'], C = [...o.C];
       const w = 1 / (F.length * M.length * C.length);
       F.forEach((f) => M.forEach((m) => C.forEach((c) => {
-        const nat = Object.values(CON).find((v) => v[0] === c)[1];
-        const a = node('f:' + f, f, 0, 'var(--c3)');
+        const nat = c === AGRO ? 'Agro' : Object.values(CON).find((v) => v[0] === c)[1];
+        const tc = nat === 'Agro' ? 'var(--c3)' : natureColor(nat);
+        const a = node('f:' + f, f, 0, f === NOFEED ? 'var(--cds-chart-muted)' : 'var(--c3)');
         const b = node('m:' + m, m, 1, m === 'Pristine biochar' ? 'var(--cds-chart-muted)' : 'var(--c4)');
-        const z = node('c:' + c, c, 2, natureColor(nat));
+        const z = node('c:' + c, c, 2, tc);
         const k1 = a + '|' + b, k2 = b + '|' + z;
         links.set(k1, { source: a, target: b, value: (links.get(k1)?.value || 0) + w, color: nodes.get(b).color });
-        links.set(k2, { source: b, target: z, value: (links.get(k2)?.value || 0) + w, color: natureColor(nat) });
+        links.set(k2, { source: b, target: z, value: (links.get(k2)?.value || 0) + w, color: tc });
       })));
     });
     const W = Math.max(780, box.clientWidth), H = 540, L = 190, Rt = 250;
     const totals = {}; links.forEach((l) => { totals[l.source] = (totals[l.source] || 0) + l.value; totals[l.target] = (totals[l.target] || 0) + l.value; });
-    const order = [...nodes.values()].sort((a, b) => a.col - b.col || (a.name === 'Pristine biochar' ? -1 : b.name === 'Pristine biochar' ? 1 : 0) || totals[b.key] - totals[a.key]);
+    const rank = (d) => (d.name === 'Pristine biochar' ? -1 : d.name === NOFEED || d.name === AGRO ? 1 : 0);
+    const order = [...nodes.values()].sort((a, b) => a.col - b.col || rank(a) - rank(b) || totals[b.key] - totals[a.key]);
     const graph = d3.sankey().nodeId((d) => d.key).nodeWidth(14).nodePadding(16).nodeSort(null).extent([[L, 34], [W - Rt, H - 8]])({
       nodes: order.map((d) => ({ ...d })), links: [...links.values()].map((d) => ({ ...d })) });
     box.replaceChildren();
     const svg = d3.select(box).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('aria-hidden', 'true');
     const colX = [L, (L + W - Rt) / 2, W - Rt];
-    ['Feedstock', 'Biochar used', 'Contaminant targeted'].forEach((t, i) => svg.append('text').attr('class', 'fl-col').attr('x', i === 0 ? L - 10 : i === 2 ? W - Rt + 24 : colX[1] + 7).attr('y', 16).attr('text-anchor', i === 0 ? 'end' : i === 1 ? 'middle' : 'start').text(t));
+    ['Feedstock', 'Biochar used', 'Used for'].forEach((t, i) => svg.append('text').attr('class', 'fl-col').attr('x', i === 0 ? L - 10 : i === 2 ? W - Rt + 24 : colX[1] + 7).attr('y', 16).attr('text-anchor', i === 0 ? 'end' : i === 1 ? 'middle' : 'start').text(t));
     const t = tip(box.parentElement.parentElement);
     const show = (ev, html) => { t.replaceChildren(); t.append(el('strong', '', html[0]), el('span', '', html[1])); const r = box.parentElement.parentElement.getBoundingClientRect(); t.style.left = Math.min(ev.clientX - r.left + 12, r.width - 290) + 'px'; t.style.top = (ev.clientY - r.top + 12) + 'px'; t.hidden = false; };
     const hide = () => { t.hidden = true; };
@@ -1146,7 +1168,8 @@ document.querySelectorAll('#bp-q, #bp-medium, #bp-type, #bp-nature, #bp-eng').fo
       .attr('x', (d) => (d.col === 0 ? d.x0 - 10 : d.x1 + 10)).attr('y', (d) => (d.y0 + d.y1) / 2).attr('dy', '0.35em')
       .attr('text-anchor', (d) => (d.col === 0 ? 'end' : 'start'))
       .text((d) => d.name + '  ' + Math.round(d.value));
-    document.getElementById('flow-foot').textContent = 'Based on the ' + outs.length + ' outputs that state both a feedstock and a target contaminant; reviews and agronomy papers are not included. A paper with several feedstocks, treatments or contaminants is split evenly across them, so totals are rounded.';
+    const nAgro = outs.filter((o) => o.agro).length;
+    document.getElementById('flow-foot').textContent = 'Based on ' + outs.length + ' outputs: original studies that state both a feedstock and a target contaminant, plus ' + nAgro + ' original agronomy studies (some also target a contaminant). Reviews, book chapters and books are not included. A paper with several feedstocks, treatments or targets is split evenly across them, so totals are rounded.';
   };
 
   /* ---------- Feedstock × contaminant grid ---------- */
