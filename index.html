@@ -843,14 +843,40 @@ document.querySelectorAll('#bp-q, #bp-medium, #bp-type, #bp-nature, #bp-eng').fo
 @media (max-width:360px){.bp-tiles{grid-template-columns:1fr}}
 </style>
 <style>
-/* Infographic: one poster-like card, three ranked panels */
-.ig-wrap{display:grid;gap:12px;margin-top:var(--cds-gap-xl)}
+/* At-a-glance carousel: five views of the same data, one shown at a time */
+[hidden]{display:none!important}
+.ig-wrap{display:grid;gap:14px;margin-top:var(--cds-gap-xl)}
+.cz-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .ig-kicker{margin:0;font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium)}
-.ig{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:18px;padding:32px;display:grid;gap:28px}
+.cz-nav{display:flex;align-items:center;gap:8px}
+.cz-btn{font:inherit;display:inline-grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid var(--color-border-line);background:var(--color-panel);color:var(--color-fg);cursor:pointer}
+.cz-btn:hover{border-color:var(--color-fg-muted)}
+.cz-btn:focus-visible,.cz-tab:focus-visible{outline:2px solid var(--c1);outline-offset:2px}
+.cz-btn svg{width:18px;height:18px}
+.cz-count{min-width:3.2em;text-align:center;font-variant-numeric:tabular-nums;color:var(--color-fg-muted);font-size:.95rem}
+.cz-tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px}
+.cz-tabs::-webkit-scrollbar{display:none}
+.cz-tab{font:inherit;font-size:.95rem;white-space:nowrap;padding:8px 14px;min-height:40px;border-radius:999px;border:1px solid var(--color-border-line);background:var(--color-panel);color:var(--color-fg-muted);cursor:pointer}
+.cz-tab[aria-selected="true"]{background:var(--color-fg);color:var(--color-bg);border-color:var(--color-fg)}
+.cz-stage{touch-action:pan-y}
+.cz-slide{display:grid;gap:12px}
+@media (prefers-reduced-motion:no-preference){.cz-slide:not([hidden]){animation:cz-in .28s ease-out}}
+@keyframes cz-in{from{opacity:0;transform:translateX(var(--cz-from,12px))}to{opacity:1;transform:none}}
+.cz-dl{margin:0;font-size:1rem}
+.cz-dots{display:flex;justify-content:center;gap:8px}
+.cz-dot{width:9px;height:9px;border-radius:50%;background:var(--color-border-line);border:0;padding:0;cursor:pointer}
+.cz-dot[aria-current="true"]{background:var(--color-fg)}
+
+/* Shared card */
+.ig{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:18px;padding:32px;display:grid;gap:28px;position:relative}
 .ig-head{display:flex;align-items:center;gap:18px;border-bottom:1px solid var(--color-border-line);padding-bottom:22px}
 .ig-photo{flex:none;width:76px;height:76px;border-radius:50%;object-fit:cover;object-position:50% 22%;border:1px solid var(--color-border-line)}
 .ig-eyebrow{margin:0;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--color-fg-muted)}
 .ig-title{margin:2px 0 0;font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.15;text-wrap:balance}
+.ig-lead{margin:-8px 0 0;font-size:1.02rem;line-height:1.55;color:var(--color-fg-muted);max-width:75ch}
+.ig-foot{margin:0;padding-top:16px;border-top:1px solid var(--color-border-line);font-size:.85rem;color:var(--color-fg-muted);line-height:1.5}
+
+/* Overview */
 .ig-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;align-items:start}
 .ig-col{display:grid;gap:14px;min-width:0}
 .ig-h{margin:0;font-size:1.25rem;font-weight:600;display:flex;align-items:center;gap:10px}
@@ -873,47 +899,143 @@ document.querySelectorAll('#bp-q, #bp-medium, #bp-type, #bp-nature, #bp-eng').fo
 .ig-con .ig-num b{font-size:1.2rem}
 .ig-legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin:-4px 0 0;padding:0;list-style:none;font-size:.88rem;color:var(--color-fg-muted)}
 .ig-legend span{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
-.ig-foot{margin:0;padding-top:16px;border-top:1px solid var(--color-border-line);font-size:.85rem;color:var(--color-fg-muted);line-height:1.5}
-.ig-dl{margin:0;font-size:1rem}
+
+/* Flow and grid */
+.cz-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.cz-hint{display:none;margin:0;font-size:.88rem;color:var(--color-fg-muted)}
+.fl-box{position:relative;min-width:780px}
+.fl-box svg{display:block;width:100%;height:auto}
+.fl-box text{font-family:var(--font-anthropic-sans);font-size:14px;fill:var(--color-fg);paint-order:stroke;stroke:var(--color-panel);stroke-width:4px;stroke-linejoin:round}
+.fl-box text.fl-col{font-size:12px;letter-spacing:.08em;text-transform:uppercase;fill:var(--color-fg-muted)}
+.fl-link{fill:none;transition:stroke-opacity .15s}
+.fl-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:8px;padding:8px 10px;font-size:.9rem;line-height:1.4;max-width:280px;z-index:3}
+.fl-tip strong{display:block}
+.hm{border-collapse:separate;border-spacing:4px;width:100%;min-width:640px;font-size:.92rem}
+.hm th{font-weight:600;text-align:left;vertical-align:bottom;padding:4px 6px;line-height:1.25}
+.hm thead th{font-size:.85rem;text-align:center;color:var(--color-fg-muted);font-weight:500}
+.hm tbody th{white-space:nowrap}
+.hm tbody th span{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:8px;vertical-align:-1px}
+.hm td{text-align:center;font-variant-numeric:tabular-nums;border-radius:6px;height:40px;min-width:64px;font-weight:600}
+.hm td.zero{color:var(--color-fg-muted);font-weight:400;background:transparent;border:1px dashed var(--color-border-line)}
+.hm-scale{display:flex;align-items:center;gap:8px;font-size:.88rem;color:var(--color-fg-muted)}
+.hm-scale i{display:block;width:140px;height:10px;border-radius:5px;background:linear-gradient(90deg,color-mix(in srgb,var(--c1) 12%,var(--color-panel)),var(--c1))}
+
+/* Fixed-format images */
+.cz-img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid var(--color-border-line);background:var(--color-panel)}
+.cz-img.square{max-width:640px;margin:0 auto}
+
 @media (max-width:900px){.ig-cols{grid-template-columns:minmax(0,1fr)}.ig-col+.ig-col{border-top:1px solid var(--color-border-line);padding-top:24px}}
+@media (max-width:820px){.cz-hint{display:block}}
 @media (max-width:720px){.ig{padding:20px;gap:22px}.ig-photo{width:60px;height:60px}}
 </style>
 
-<section class="ig-wrap" id="at-a-glance">
-  <h2 class="ig-kicker">At a glance</h2>
-  <div class="ig" id="infographic">
-    <div class="ig-head">
-      <img class="ig-photo" src="img/profile.jpg" width="76" height="76" alt="">
-      <div>
-        <p class="ig-eyebrow">Biochar research at a glance</p>
-        <p class="ig-title">Prof. Meththika Vithanage</p>
-      </div>
+<section class="ig-wrap" id="at-a-glance" aria-roledescription="carousel" aria-label="Biochar research at a glance">
+  <div class="cz-head">
+    <h2 class="ig-kicker">At a glance</h2>
+    <div class="cz-nav">
+      <button class="cz-btn" type="button" id="cz-prev" aria-label="Previous view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <span class="cz-count" id="cz-count" aria-live="polite">1 / 5</span>
+      <button class="cz-btn" type="button" id="cz-next" aria-label="Next view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
-    <div class="ig-cols">
-      <div class="ig-col" style="--ig-accent:var(--c3)">
-        <h3 class="ig-h">Feedstock groups</h3>
-        <p class="ig-sub">The five most used groups, by number of outputs</p>
-        <ol class="ig-list" data-draw="igFeed"></ol>
-      </div>
-      <div class="ig-col" style="--ig-accent:var(--c4)">
-        <h3 class="ig-h">Engineered biochar</h3>
-        <p class="ig-sub">The five most used modification families, excluding physical and chemical activation</p>
-        <ol class="ig-list" data-draw="igMod"></ol>
-      </div>
-      <div class="ig-col" style="--ig-accent:var(--c1)">
-        <h3 class="ig-h">Contaminant classes</h3>
-        <p class="ig-sub">Outputs studying each class</p>
-        <ul class="ig-legend"><li><span style="background:var(--c1)"></span>Organic</li><li><span style="background:var(--c2)"></span>Inorganic</li><li><span style="background:var(--cds-chart-muted)"></span>Other or mixed</li></ul>
-        <ul class="ig-con" data-draw="igCon"></ul>
-      </div>
-    </div>
-    <p class="ig-foot">Source: Google Scholar profile (scholar.google.com, user jcCDYcIAAAAJ), read 16 November 2026. Each biochar output was classified with Claude from its title and abstract. One output can count in several groups.</p>
   </div>
-  <p class="ig-dl"><a href="img/infographic.png" download="vithanage-biochar-infographic.png">Download the infographic as an image (PNG)</a></p>
+  <div class="cz-tabs" role="tablist" aria-label="Choose a view">
+    <button class="cz-tab" type="button" role="tab" id="tab-overview" aria-controls="slide-overview" aria-selected="true">Overview</button>
+    <button class="cz-tab" type="button" role="tab" id="tab-flow" aria-controls="slide-flow" aria-selected="false" tabindex="-1">Flow diagram</button>
+    <button class="cz-tab" type="button" role="tab" id="tab-grid" aria-controls="slide-grid" aria-selected="false" tabindex="-1">Feedstock × contaminant grid</button>
+    <button class="cz-tab" type="button" role="tab" id="tab-slide" aria-controls="slide-slide" aria-selected="false" tabindex="-1">Presentation slide</button>
+    <button class="cz-tab" type="button" role="tab" id="tab-square" aria-controls="slide-square" aria-selected="false" tabindex="-1">Square for social media</button>
+  </div>
+
+  <div class="cz-stage" id="cz-stage">
+    <!-- 1. Overview -->
+    <div class="cz-slide" id="slide-overview" role="tabpanel" aria-labelledby="tab-overview" aria-roledescription="slide">
+      <div class="ig" id="infographic">
+        <div class="ig-head">
+          <img class="ig-photo" src="img/profile.jpg" width="76" height="76" alt="">
+          <div>
+            <p class="ig-eyebrow">Biochar research at a glance</p>
+            <p class="ig-title">Prof. Meththika Vithanage</p>
+          </div>
+        </div>
+        <div class="ig-cols">
+          <div class="ig-col" style="--ig-accent:var(--c3)">
+            <h3 class="ig-h">Feedstock groups</h3>
+            <p class="ig-sub">The five most used groups, by number of outputs</p>
+            <ol class="ig-list" data-draw="igFeed"></ol>
+          </div>
+          <div class="ig-col" style="--ig-accent:var(--c4)">
+            <h3 class="ig-h">Engineered biochar</h3>
+            <p class="ig-sub">The five most used modification families, excluding physical and chemical activation</p>
+            <ol class="ig-list" data-draw="igMod"></ol>
+          </div>
+          <div class="ig-col" style="--ig-accent:var(--c1)">
+            <h3 class="ig-h">Contaminant classes</h3>
+            <p class="ig-sub">Outputs studying each class</p>
+            <ul class="ig-legend"><li><span style="background:var(--c1)"></span>Organic</li><li><span style="background:var(--c2)"></span>Inorganic</li><li><span style="background:var(--cds-chart-muted)"></span>Other or mixed</li></ul>
+            <ul class="ig-con" data-draw="igCon"></ul>
+          </div>
+        </div>
+        <p class="ig-foot">Source: Google Scholar profile (scholar.google.com, user jcCDYcIAAAAJ), read 16 November 2026. Each biochar output was classified with Claude from its title and abstract. One output can count in several groups.</p>
+      </div>
+      <p class="cz-dl"><a href="img/infographic.png" download="vithanage-biochar-overview.png">Download this view (PNG)</a></p>
+    </div>
+
+    <!-- 2. Flow -->
+    <div class="cz-slide" id="slide-flow" role="tabpanel" aria-labelledby="tab-flow" aria-roledescription="slide" hidden>
+      <div class="ig" id="infographic-flow">
+        <div class="ig-head">
+          <img class="ig-photo" src="img/profile.jpg" width="76" height="76" alt="">
+          <div>
+            <p class="ig-eyebrow">Biochar research pathways</p>
+            <p class="ig-title">From feedstock to contaminant</p>
+          </div>
+        </div>
+        <p class="ig-lead">Each band follows papers from the biomass the biochar was made from, through whether it was used pristine or engineered, to the type of contaminant it targeted. Band width is the number of papers.</p>
+        <p class="cz-hint">Swipe the diagram sideways to see all of it.</p>
+        <div class="cz-scroll"><div class="fl-box" id="flow-box" role="img" aria-label="Flow diagram linking feedstock groups to pristine or engineered biochar and then to contaminant types"></div></div>
+        <p class="ig-foot" id="flow-foot">Based on the outputs that state both a feedstock and a target contaminant; reviews and agronomy papers are not included. A paper with several feedstocks, treatments or contaminants is split evenly across them, so node totals are rounded.</p>
+      </div>
+      <p class="cz-dl"><a href="img/infographic-flow.png" download="vithanage-biochar-flow.png">Download this view (PNG)</a></p>
+    </div>
+
+    <!-- 3. Grid -->
+    <div class="cz-slide" id="slide-grid" role="tabpanel" aria-labelledby="tab-grid" aria-roledescription="slide" hidden>
+      <div class="ig" id="infographic-grid">
+        <div class="ig-head">
+          <img class="ig-photo" src="img/profile.jpg" width="76" height="76" alt="">
+          <div>
+            <p class="ig-eyebrow">Biochar expertise map</p>
+            <p class="ig-title">Which biochars for which contaminants</p>
+          </div>
+        </div>
+        <p class="ig-lead">Number of outputs that combine each feedstock group with each contaminant class. Darker cells mean more papers.</p>
+        <p class="cz-hint">Swipe the grid sideways to see all columns.</p>
+        <div class="cz-scroll" id="grid-box"></div>
+        <div class="hm-scale"><span>Fewer</span><i></i><span>More papers</span></div>
+        <p class="ig-foot">Counts include only outputs that state both a feedstock and a contaminant. An output appears in every cell it belongs to, so rows and columns do not add up to the number of papers.</p>
+      </div>
+      <p class="cz-dl"><a href="img/infographic-grid.png" download="vithanage-biochar-grid.png">Download this view (PNG)</a></p>
+    </div>
+
+    <!-- 4. Slide -->
+    <div class="cz-slide" id="slide-slide" role="tabpanel" aria-labelledby="tab-slide" aria-roledescription="slide" hidden>
+      <img class="cz-img" src="img/infographic-slide.png" width="1920" height="1080" loading="lazy" alt="Presentation slide summarising Prof. Meththika Vithanage's biochar research: top feedstock groups, engineered biochar families and contaminant classes.">
+      <p class="cz-dl"><a href="img/infographic-slide.png" download="vithanage-biochar-slide-16x9.png">Download the 16:9 slide (PNG, 1920 × 1080)</a></p>
+    </div>
+
+    <!-- 5. Square -->
+    <div class="cz-slide" id="slide-square" role="tabpanel" aria-labelledby="tab-square" aria-roledescription="slide" hidden>
+      <img class="cz-img square" src="img/infographic-square.png" width="1080" height="1080" loading="lazy" alt="Square social media graphic summarising Prof. Meththika Vithanage's biochar research.">
+      <p class="cz-dl"><a href="img/infographic-square.png" download="vithanage-biochar-square.png">Download the square image (PNG, 1080 × 1080)</a></p>
+    </div>
+  </div>
+  <div class="cz-dots" id="cz-dots"></div>
 </section>
 
+<script src="js/d3-sankey.min.js"></script>
 <script>
 (() => {
+  /* ---------- Overview lists (unchanged from the single infographic) ---------- */
   const short = (s) => s.replace(/\s*\(.*?\)\s*/g, '').trim();
   const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
   const item = (rank, name, value, unit, max, meta, color) => {
@@ -956,6 +1078,149 @@ document.querySelectorAll('#bp-q, #bp-medium, #bp-type, #bp-nature, #bp-eng').fo
     const col = (n) => (n === 'Organic' ? 'var(--c1)' : n === 'Inorganic' ? 'var(--c2)' : 'var(--cds-chart-muted)');
     ul.replaceChildren(...c.data.map((r) => item(null, r.class, r.outputs, '', max, null, col(r.nature))));
   });
+
+  /* ---------- Shared groupings for the flow and grid ---------- */
+  const FEED = { 'Woody & forestry': 'Woody & forestry', 'Crop & herbaceous residues': 'Crop residues', 'Municipal & urban waste': 'Municipal & urban waste',
+    'Food & kitchen waste': 'Food & kitchen waste', 'Invasive & wild plants': 'Invasive & wild plants', 'Marine biomass': 'Other biomass', 'Animal-derived': 'Other biomass', 'Model compounds': 'Other biomass' };
+  const MOD = { 'Clay & mineral composites': 'Clay & mineral composites', 'Size engineering (colloidal / nano / milled)': 'Colloidal & nano biochar',
+    'Physical activation': 'Physical activation', 'Chemical activation & functionalisation': 'Chemical activation', 'Bio-polymer & organic coatings': 'Other engineering',
+    'Metal-oxide, magnetic & nano-composites': 'Other engineering', 'Nutrient enrichment & co-composting': 'Other engineering', 'Method not stated': 'Other engineering' };
+  const CON = { 'Heavy metals': ['Metals & metalloids', 'Inorganic'], 'Metalloids (As, Sb)': ['Metals & metalloids', 'Inorganic'], 'Anions, nutrients & salinity': ['Anions & nutrients', 'Inorganic'],
+    'Antibiotics': ['Antibiotics & pharmaceuticals', 'Organic'], 'Pharmaceuticals & personal-care products': ['Antibiotics & pharmaceuticals', 'Organic'], 'Pesticides & herbicides': ['Pesticides', 'Organic'],
+    'VOCs & chlorinated solvents': ['Solvents, oil, dyes & other organics', 'Organic'], 'Dyes': ['Solvents, oil, dyes & other organics', 'Organic'],
+    'Petroleum hydrocarbons & PAHs': ['Solvents, oil, dyes & other organics', 'Organic'], 'Industrial organics (plasticisers, BPA, surfactants)': ['Solvents, oil, dyes & other organics', 'Organic'],
+    'Microplastics & pathogens': ['Mixed & other', 'Other'], 'Mixed waste streams': ['Mixed & other', 'Other'] };
+  const natureColor = (n) => (n === 'Organic' ? 'var(--c1)' : n === 'Inorganic' ? 'var(--c2)' : 'var(--cds-chart-muted)');
+  const byOutput = () => {
+    const m = {};
+    dash.data('tags').data.forEach((t) => {
+      const o = m[t.id] = m[t.id] || { F: new Set(), M: new Set(), C: new Set(), K: new Set() };
+      if (t.facet === 'Feedstock') o.F.add(FEED[t.group]);
+      else if (t.facet === 'Modification') o.M.add(MOD[t.group]);
+      else { o.C.add(CON[t.group][0]); o.K.add(t.group); }
+    });
+    return Object.values(m).filter((o) => o.F.size && o.C.size);
+  };
+
+  /* ---------- Flow diagram ---------- */
+  const tip = (box) => { let t = box.querySelector('.fl-tip'); if (!t) { t = el('div', 'fl-tip'); t.hidden = true; box.append(t); } return t; };
+  window.drawFlow = () => {
+    const box = document.getElementById('flow-box');
+    if (!box || box.closest('[hidden]') || !d3.sankey) return;
+    const outs = byOutput();
+    const nodes = new Map(), links = new Map();
+    const node = (key, name, col, color) => { if (!nodes.has(key)) nodes.set(key, { key, name, col, color }); return key; };
+    outs.forEach((o) => {
+      const F = [...o.F], M = o.M.size ? [...o.M] : ['Pristine biochar'], C = [...o.C];
+      const w = 1 / (F.length * M.length * C.length);
+      F.forEach((f) => M.forEach((m) => C.forEach((c) => {
+        const nat = Object.values(CON).find((v) => v[0] === c)[1];
+        const a = node('f:' + f, f, 0, 'var(--c3)');
+        const b = node('m:' + m, m, 1, m === 'Pristine biochar' ? 'var(--cds-chart-muted)' : 'var(--c4)');
+        const z = node('c:' + c, c, 2, natureColor(nat));
+        const k1 = a + '|' + b, k2 = b + '|' + z;
+        links.set(k1, { source: a, target: b, value: (links.get(k1)?.value || 0) + w, color: nodes.get(b).color });
+        links.set(k2, { source: b, target: z, value: (links.get(k2)?.value || 0) + w, color: natureColor(nat) });
+      })));
+    });
+    const W = Math.max(780, box.clientWidth), H = 540, L = 190, Rt = 250;
+    const totals = {}; links.forEach((l) => { totals[l.source] = (totals[l.source] || 0) + l.value; totals[l.target] = (totals[l.target] || 0) + l.value; });
+    const order = [...nodes.values()].sort((a, b) => a.col - b.col || (a.name === 'Pristine biochar' ? -1 : b.name === 'Pristine biochar' ? 1 : 0) || totals[b.key] - totals[a.key]);
+    const graph = d3.sankey().nodeId((d) => d.key).nodeWidth(14).nodePadding(16).nodeSort(null).extent([[L, 34], [W - Rt, H - 8]])({
+      nodes: order.map((d) => ({ ...d })), links: [...links.values()].map((d) => ({ ...d })) });
+    box.replaceChildren();
+    const svg = d3.select(box).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('aria-hidden', 'true');
+    const colX = [L, (L + W - Rt) / 2, W - Rt];
+    ['Feedstock', 'Biochar used', 'Contaminant targeted'].forEach((t, i) => svg.append('text').attr('class', 'fl-col').attr('x', i === 0 ? L - 10 : i === 2 ? W - Rt + 24 : colX[1] + 7).attr('y', 16).attr('text-anchor', i === 0 ? 'end' : i === 1 ? 'middle' : 'start').text(t));
+    const t = tip(box.parentElement.parentElement);
+    const show = (ev, html) => { t.replaceChildren(); t.append(el('strong', '', html[0]), el('span', '', html[1])); const r = box.parentElement.parentElement.getBoundingClientRect(); t.style.left = Math.min(ev.clientX - r.left + 12, r.width - 290) + 'px'; t.style.top = (ev.clientY - r.top + 12) + 'px'; t.hidden = false; };
+    const hide = () => { t.hidden = true; };
+    const lk = svg.append('g').selectAll('path').data(graph.links).join('path').attr('class', 'fl-link').attr('d', d3.sankeyLinkHorizontal())
+      .style('stroke', (d) => d.color).style('stroke-opacity', 0.38).attr('stroke-width', (d) => Math.max(1.5, d.width))
+      .on('pointerenter pointermove', function (ev, d) { d3.select(this).style('stroke-opacity', 0.7); show(ev, [d.source.name + ' → ' + d.target.name, Math.round(d.value) + ' paper' + (Math.round(d.value) === 1 ? '' : 's')]); })
+      .on('pointerleave', function () { d3.select(this).style('stroke-opacity', 0.38); hide(); });
+    svg.append('g').selectAll('rect').data(graph.nodes).join('rect').attr('x', (d) => d.x0).attr('y', (d) => d.y0).attr('width', (d) => d.x1 - d.x0).attr('height', (d) => Math.max(2, d.y1 - d.y0)).attr('rx', 3).style('fill', (d) => d.color)
+      .on('pointerenter pointermove', (ev, d) => { lk.style('stroke-opacity', (l) => (l.source === d || l.target === d ? 0.7 : 0.12)); show(ev, [d.name, Math.round(d.value) + ' papers']); })
+      .on('pointerleave', () => { lk.style('stroke-opacity', 0.38); hide(); });
+    svg.append('g').selectAll('text').data(graph.nodes).join('text')
+      .attr('x', (d) => (d.col === 0 ? d.x0 - 10 : d.x1 + 10)).attr('y', (d) => (d.y0 + d.y1) / 2).attr('dy', '0.35em')
+      .attr('text-anchor', (d) => (d.col === 0 ? 'end' : 'start'))
+      .text((d) => d.name + '  ' + Math.round(d.value));
+    document.getElementById('flow-foot').textContent = 'Based on the ' + outs.length + ' outputs that state both a feedstock and a target contaminant; reviews and agronomy papers are not included. A paper with several feedstocks, treatments or contaminants is split evenly across them, so totals are rounded.';
+  };
+
+  /* ---------- Feedstock × contaminant grid ---------- */
+  window.drawGrid = () => {
+    const box = document.getElementById('grid-box');
+    if (!box) return;
+    const outs = byOutput();
+    const cols = ['Woody & forestry', 'Crop residues', 'Municipal & urban waste', 'Food & kitchen waste', 'Invasive & wild plants', 'Other biomass'];
+    const classes = dash.data('con_classes').data;
+    const count = (k, f) => outs.filter((o) => o.K.has(k) && o.F.has(f)).length;
+    const cells = classes.map((c) => cols.map((f) => count(c.class, f)));
+    const max = Math.max(...cells.flat());
+    const table = el('table', 'hm');
+    const thead = el('thead'); const hr = el('tr'); hr.append(el('th', '', ''));
+    cols.forEach((c) => hr.append(el('th', '', c))); thead.append(hr); table.append(thead);
+    const tb = el('tbody');
+    classes.forEach((c, i) => {
+      const tr = el('tr'); const th = el('th'); const sw = el('span'); sw.style.background = natureColor(c.nature); th.append(sw, document.createTextNode(c.class)); tr.append(th);
+      cells[i].forEach((n, j) => {
+        const td = el('td', n ? '' : 'zero', n || '·');
+        if (n) { const p = Math.round(12 + 88 * n / max); td.style.background = `color-mix(in srgb, var(--c1) ${p}%, var(--color-panel))`; td.style.color = p > 52 ? '#fff' : 'var(--color-fg)'; }
+        td.title = c.class + ' × ' + cols[j] + ': ' + n + ' outputs';
+        tr.append(td);
+      });
+      tb.append(tr);
+    });
+    table.append(tb);
+    box.replaceChildren(table);
+  };
+
+  /* ---------- Carousel ---------- */
+  const ids = ['overview', 'flow', 'grid', 'slide', 'square'];
+  const slides = ids.map((id) => document.getElementById('slide-' + id));
+  const tabs = ids.map((id) => document.getElementById('tab-' + id));
+  const dots = document.getElementById('cz-dots');
+  const count = document.getElementById('cz-count');
+  ids.forEach((id, i) => { const b = el('button', 'cz-dot'); b.type = 'button'; b.setAttribute('aria-label', 'Show view ' + (i + 1)); b.addEventListener('click', () => go(i)); dots.append(b); });
+  let cur = 0;
+  const go = (i, focusTab) => {
+    const n = (i + ids.length) % ids.length;
+    const dir = n > cur || (cur === ids.length - 1 && n === 0) ? 1 : -1;
+    cur = n;
+    slides.forEach((s, j) => { s.hidden = j !== n; if (j === n) s.style.setProperty('--cz-from', (dir * 14) + 'px'); });
+    tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(j === n)); t.tabIndex = j === n ? 0 : -1; });
+    [...dots.children].forEach((d, j) => d.setAttribute('aria-current', String(j === n)));
+    count.textContent = (n + 1) + ' / ' + ids.length;
+    const strip = tabs[n].parentElement; strip.scrollTo({ left: Math.max(0, tabs[n].offsetLeft - strip.offsetLeft - 16), behavior: 'smooth' });
+    if (focusTab) tabs[n].focus();
+    if (ids[n] === 'flow') drawFlow();
+    if (ids[n] === 'grid') drawGrid();
+  };
+  window.czGo = go;
+  document.getElementById('cz-prev').addEventListener('click', () => go(cur - 1));
+  document.getElementById('cz-next').addEventListener('click', () => go(cur + 1));
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => go(i));
+    t.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(i + 1, true); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(i - 1, true); }
+    });
+  });
+  /* Swipe between views, except when the swipe starts on a sideways-scrolling diagram */
+  const stage = document.getElementById('cz-stage');
+  let sx = null, sy = null;
+  stage.addEventListener('pointerdown', (e) => { if (e.pointerType === 'mouse' || e.target.closest('.cz-scroll')) { sx = null; return; } sx = e.clientX; sy = e.clientY; });
+  stage.addEventListener('pointerup', (e) => {
+    if (sx == null) return;
+    const dx = e.clientX - sx, dy = e.clientY - sy; sx = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > 1.5 * Math.abs(dy)) go(cur + (dx < 0 ? 1 : -1));
+  });
+  document.addEventListener('pointerdown', (e) => { if (!e.target.closest('#flow-box path, #flow-box rect')) document.querySelectorAll('.fl-tip').forEach((t) => { t.hidden = true; }); });
+  let rw = innerWidth;
+  addEventListener('resize', () => { if (innerWidth !== rw) { rw = innerWidth; if (ids[cur] === 'flow') drawFlow(); } });
+  go(0);
 })();
 </script>
 
