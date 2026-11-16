@@ -1,0 +1,3026 @@
+[
+ {
+  "id": "P001",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P001",
+  "facet": "Modification",
+  "value": "colloidal biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P001",
+  "facet": "Modification",
+  "value": "silane modification",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P001",
+  "facet": "Contaminant",
+  "value": "oil/petroleum",
+  "group": "Petroleum hydrocarbons & PAHs",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P003",
+  "facet": "Modification",
+  "value": "nutrient enrichment (biochar fertiliser)",
+  "group": "Nutrient enrichment & co-composting",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P004",
+  "facet": "Contaminant",
+  "value": "plasticizers",
+  "group": "Industrial organics (plasticisers, BPA, surfactants)",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P005",
+  "facet": "Feedstock",
+  "value": "Rice husk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P005",
+  "facet": "Modification",
+  "value": "co-composting",
+  "group": "Nutrient enrichment & co-composting",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P007",
+  "facet": "Modification",
+  "value": "nitrogen doping",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P007",
+  "facet": "Contaminant",
+  "value": "bisphenol A",
+  "group": "Industrial organics (plasticisers, BPA, surfactants)",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P008",
+  "facet": "Modification",
+  "value": "supramolecular fibrous framework",
+  "group": "Bio-polymer & organic coatings",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P008",
+  "facet": "Contaminant",
+  "value": "microplastics",
+  "group": "Microplastics & pathogens",
+  "nature": "Other / mixed",
+  "specific": "yes"
+ },
+ {
+  "id": "P011",
+  "facet": "Contaminant",
+  "value": "atrazine",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P012",
+  "facet": "Modification",
+  "value": "nitrogen doping",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P014",
+  "facet": "Feedstock",
+  "value": "Sugarcane bagasse/trash",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P016",
+  "facet": "Modification",
+  "value": "nutrient enrichment (biochar fertiliser)",
+  "group": "Nutrient enrichment & co-composting",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P018",
+  "facet": "Feedstock",
+  "value": "Bamboo",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P018",
+  "facet": "Modification",
+  "value": "chitosan coating",
+  "group": "Bio-polymer & organic coatings",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P018",
+  "facet": "Contaminant",
+  "value": "ciprofloxacin",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P019",
+  "facet": "Feedstock",
+  "value": "Cinnamon wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P019",
+  "facet": "Contaminant",
+  "value": "DEHP (phthalate)",
+  "group": "Industrial organics (plasticisers, BPA, surfactants)",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P020",
+  "facet": "Feedstock",
+  "value": "Cinnamon wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P020",
+  "facet": "Modification",
+  "value": "montmorillonite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P020",
+  "facet": "Contaminant",
+  "value": "hardness",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P020",
+  "facet": "Contaminant",
+  "value": "fluoride",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P022",
+  "facet": "Modification",
+  "value": "magnetic/graphene-oxide gel",
+  "group": "Metal-oxide, magnetic & nano-composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P023",
+  "facet": "Modification",
+  "value": "nano-biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P023",
+  "facet": "Contaminant",
+  "value": "pathogens",
+  "group": "Microplastics & pathogens",
+  "nature": "Other / mixed",
+  "specific": "no"
+ },
+ {
+  "id": "P024",
+  "facet": "Feedstock",
+  "value": "Pomegranate peel",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P024",
+  "facet": "Modification",
+  "value": "chemical activation (activated carbon)",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P024",
+  "facet": "Contaminant",
+  "value": "Basic Red 46 dye",
+  "group": "Dyes",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Feedstock",
+  "value": "Spruce wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Feedstock",
+  "value": "Typha (wetland plant)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "diclofenac",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "methylparaben",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "benzotriazole",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "surfactant",
+  "group": "Industrial organics (plasticisers, BPA, surfactants)",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "nitrate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "ammonium",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "phosphate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P025",
+  "facet": "Contaminant",
+  "value": "boron",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P026",
+  "facet": "Feedstock",
+  "value": "Bone",
+  "group": "Animal-derived",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P026",
+  "facet": "Modification",
+  "value": "ball milling",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P026",
+  "facet": "Modification",
+  "value": "Fe-Mn oxide composite",
+  "group": "Metal-oxide, magnetic & nano-composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P026",
+  "facet": "Contaminant",
+  "value": "cadmium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P026",
+  "facet": "Contaminant",
+  "value": "zinc",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P027",
+  "facet": "Feedstock",
+  "value": "Cabbage leaves",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P027",
+  "facet": "Modification",
+  "value": "anthocyanin pre-treatment",
+  "group": "Bio-polymer & organic coatings",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P027",
+  "facet": "Modification",
+  "value": "kaolinite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P027",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P027",
+  "facet": "Contaminant",
+  "value": "copper",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P027",
+  "facet": "Contaminant",
+  "value": "metoprolol",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P028",
+  "facet": "Feedstock",
+  "value": "Corncob",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P028",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P028",
+  "facet": "Modification",
+  "value": "colloidal biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P028",
+  "facet": "Modification",
+  "value": "nano-biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P028",
+  "facet": "Contaminant",
+  "value": "pathogens",
+  "group": "Microplastics & pathogens",
+  "nature": "Other / mixed",
+  "specific": "no"
+ },
+ {
+  "id": "P032",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P034",
+  "facet": "Feedstock",
+  "value": "MSW compost residue",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P036",
+  "facet": "Contaminant",
+  "value": "PAHs",
+  "group": "Petroleum hydrocarbons & PAHs",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P037",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P037",
+  "facet": "Modification",
+  "value": "nutrient enrichment (biochar fertiliser)",
+  "group": "Nutrient enrichment & co-composting",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P039",
+  "facet": "Modification",
+  "value": "nano-biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P040",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P041",
+  "facet": "Feedstock",
+  "value": "Mimosa pigra (invasive)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P041",
+  "facet": "Modification",
+  "value": "chitosan coating",
+  "group": "Bio-polymer & organic coatings",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P041",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P042",
+  "facet": "Feedstock",
+  "value": "Corncob",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P042",
+  "facet": "Modification",
+  "value": "layered double hydroxide composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P042",
+  "facet": "Modification",
+  "value": "torrefaction pre-treatment",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P042",
+  "facet": "Contaminant",
+  "value": "fluoride",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Feedstock",
+  "value": "Wheat straw",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Feedstock",
+  "value": "Rice straw",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Feedstock",
+  "value": "Kitchen waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Feedstock",
+  "value": "Leaf litter",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Feedstock",
+  "value": "Lantana camara",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Feedstock",
+  "value": "Orange peel",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Feedstock",
+  "value": "Walnut shell",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P044",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P046",
+  "facet": "Modification",
+  "value": "nanocomposite",
+  "group": "Metal-oxide, magnetic & nano-composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P046",
+  "facet": "Contaminant",
+  "value": "antibiotics",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P047",
+  "facet": "Feedstock",
+  "value": "Mimosa pigra (invasive)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P047",
+  "facet": "Modification",
+  "value": "citric acid modification",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P047",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P048",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P048",
+  "facet": "Feedstock",
+  "value": "Cinnamon wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P048",
+  "facet": "Contaminant",
+  "value": "oil/petroleum",
+  "group": "Petroleum hydrocarbons & PAHs",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P049",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P050",
+  "facet": "Feedstock",
+  "value": "Cabbage leaves",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P050",
+  "facet": "Modification",
+  "value": "anthocyanin pre-treatment",
+  "group": "Bio-polymer & organic coatings",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P050",
+  "facet": "Modification",
+  "value": "kaolinite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P050",
+  "facet": "Contaminant",
+  "value": "copper",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P050",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P050",
+  "facet": "Contaminant",
+  "value": "metoprolol",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P051",
+  "facet": "Contaminant",
+  "value": "PPCPs",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P052",
+  "facet": "Feedstock",
+  "value": "Coconut shell",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P052",
+  "facet": "Contaminant",
+  "value": "nitrate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P052",
+  "facet": "Contaminant",
+  "value": "phosphate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P053",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P053",
+  "facet": "Contaminant",
+  "value": "oil/petroleum",
+  "group": "Petroleum hydrocarbons & PAHs",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P054",
+  "facet": "Feedstock",
+  "value": "Cinnamon wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P054",
+  "facet": "Contaminant",
+  "value": "caffeine",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P054",
+  "facet": "Contaminant",
+  "value": "triclosan",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P057",
+  "facet": "Feedstock",
+  "value": "Groundnut shell",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P057",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P058",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P059",
+  "facet": "Contaminant",
+  "value": "fluoride",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P060",
+  "facet": "Feedstock",
+  "value": "Mimosa pigra (invasive)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P060",
+  "facet": "Modification",
+  "value": "amino functionalisation",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P060",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P061",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P061",
+  "facet": "Modification",
+  "value": "colloidal biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P061",
+  "facet": "Contaminant",
+  "value": "ciprofloxacin",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P062",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P062",
+  "facet": "Modification",
+  "value": "acid activation",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P062",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P063",
+  "facet": "Feedstock",
+  "value": "Giant reed",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P063",
+  "facet": "Modification",
+  "value": "sulfonation",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P063",
+  "facet": "Contaminant",
+  "value": "ammonium",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P064",
+  "facet": "Feedstock",
+  "value": "Cinnamon wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P064",
+  "facet": "Contaminant",
+  "value": "sulfamethoxazole",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P066",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P066",
+  "facet": "Modification",
+  "value": "montmorillonite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P066",
+  "facet": "Contaminant",
+  "value": "oxytetracycline",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P068",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P069",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P069",
+  "facet": "Modification",
+  "value": "zeolite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P069",
+  "facet": "Contaminant",
+  "value": "fluoride",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P069",
+  "facet": "Contaminant",
+  "value": "hardness",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P070",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P070",
+  "facet": "Contaminant",
+  "value": "oil/petroleum",
+  "group": "Petroleum hydrocarbons & PAHs",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P072",
+  "facet": "Feedstock",
+  "value": "Seaweed (Sargassum crassifolium)",
+  "group": "Marine biomass",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P072",
+  "facet": "Modification",
+  "value": "zeolite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P072",
+  "facet": "Contaminant",
+  "value": "ciprofloxacin",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P073",
+  "facet": "Feedstock",
+  "value": "Watermelon rind",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P073",
+  "facet": "Contaminant",
+  "value": "fluoride",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P074",
+  "facet": "Contaminant",
+  "value": "oil/petroleum",
+  "group": "Petroleum hydrocarbons & PAHs",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P075",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P075",
+  "facet": "Modification",
+  "value": "montmorillonite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P075",
+  "facet": "Modification",
+  "value": "red earth clay composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P075",
+  "facet": "Contaminant",
+  "value": "tetracycline",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P076",
+  "facet": "Feedstock",
+  "value": "Rice straw",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P076",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P077",
+  "facet": "Feedstock",
+  "value": "Swine manure (hydrochar)",
+  "group": "Animal-derived",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P077",
+  "facet": "Feedstock",
+  "value": "Chicken manure (hydrochar)",
+  "group": "Animal-derived",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P078",
+  "facet": "Feedstock",
+  "value": "Rice husk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P078",
+  "facet": "Feedstock",
+  "value": "Sawdust",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P078",
+  "facet": "Modification",
+  "value": "nutrient loading",
+  "group": "Nutrient enrichment & co-composting",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P078",
+  "facet": "Contaminant",
+  "value": "nitrate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P078",
+  "facet": "Contaminant",
+  "value": "phosphate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P079",
+  "facet": "Feedstock",
+  "value": "Seaweed (Ulva reticulata)",
+  "group": "Marine biomass",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P079",
+  "facet": "Contaminant",
+  "value": "caffeine",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P080",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P080",
+  "facet": "Contaminant",
+  "value": "toluene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P080",
+  "facet": "Contaminant",
+  "value": "ethylbenzene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P082",
+  "facet": "Modification",
+  "value": "clay composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P083",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P083",
+  "facet": "Modification",
+  "value": "hydroxyapatite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P083",
+  "facet": "Contaminant",
+  "value": "fluoride",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P084",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P084",
+  "facet": "Contaminant",
+  "value": "landfill leachate",
+  "group": "Mixed waste streams",
+  "nature": "Other / mixed",
+  "specific": "no"
+ },
+ {
+  "id": "P085",
+  "facet": "Feedstock",
+  "value": "Cinnamon wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P085",
+  "facet": "Contaminant",
+  "value": "sulfamethoxazole",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P086",
+  "facet": "Feedstock",
+  "value": "Mimosa pigra (invasive)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P086",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P087",
+  "facet": "Feedstock",
+  "value": "Cinnamon wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P087",
+  "facet": "Contaminant",
+  "value": "sulfamethoxazole",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P088",
+  "facet": "Modification",
+  "value": "nano-biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P089",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P089",
+  "facet": "Modification",
+  "value": "nano-biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P089",
+  "facet": "Contaminant",
+  "value": "antibiotics",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P089",
+  "facet": "Contaminant",
+  "value": "pesticides",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P089",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P090",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P090",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P090",
+  "facet": "Contaminant",
+  "value": "caffeine",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P091",
+  "facet": "Contaminant",
+  "value": "salinity",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P092",
+  "facet": "Modification",
+  "value": "layered double hydroxide composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P093",
+  "facet": "Feedstock",
+  "value": "Rice husk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P093",
+  "facet": "Modification",
+  "value": "silica/Si-fertilizer impregnation",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P093",
+  "facet": "Modification",
+  "value": "nano-montmorillonite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P093",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P094",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P094",
+  "facet": "Contaminant",
+  "value": "caffeine",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P095",
+  "facet": "Contaminant",
+  "value": "steroidal estrogens",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P096",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P096",
+  "facet": "Modification",
+  "value": "colloidal biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P096",
+  "facet": "Modification",
+  "value": "nano-biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P096",
+  "facet": "Contaminant",
+  "value": "oxytetracycline",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P096",
+  "facet": "Contaminant",
+  "value": "nitrate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P096",
+  "facet": "Contaminant",
+  "value": "phosphate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P097",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P097",
+  "facet": "Contaminant",
+  "value": "landfill leachate",
+  "group": "Mixed waste streams",
+  "nature": "Other / mixed",
+  "specific": "no"
+ },
+ {
+  "id": "P098",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P098",
+  "facet": "Feedstock",
+  "value": "King coconut",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P098",
+  "facet": "Feedstock",
+  "value": "Sewage sludge",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P098",
+  "facet": "Feedstock",
+  "value": "Douglas fir",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P098",
+  "facet": "Feedstock",
+  "value": "Coconut shell",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P098",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P099",
+  "facet": "Contaminant",
+  "value": "pesticides",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P100",
+  "facet": "Contaminant",
+  "value": "salinity",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P102",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P102",
+  "facet": "Modification",
+  "value": "montmorillonite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P102",
+  "facet": "Modification",
+  "value": "red earth clay composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P102",
+  "facet": "Contaminant",
+  "value": "tetracycline",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P103",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P103",
+  "facet": "Contaminant",
+  "value": "crystal violet",
+  "group": "Dyes",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P104",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P104",
+  "facet": "Modification",
+  "value": "montmorillonite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P104",
+  "facet": "Contaminant",
+  "value": "ciprofloxacin",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P105",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P105",
+  "facet": "Modification",
+  "value": "bentonite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P105",
+  "facet": "Contaminant",
+  "value": "ciprofloxacin",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P106",
+  "facet": "Feedstock",
+  "value": "Bone",
+  "group": "Animal-derived",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P106",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P107",
+  "facet": "Feedstock",
+  "value": "Oak wood",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P107",
+  "facet": "Feedstock",
+  "value": "Grass",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P107",
+  "facet": "Feedstock",
+  "value": "Cellulose/xylan/lignin (model)",
+  "group": "Model compounds",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P107",
+  "facet": "Modification",
+  "value": "CO2 activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P108",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P109",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P109",
+  "facet": "Modification",
+  "value": "acid activation",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Feedstock",
+  "value": "Vegetable waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Feedstock",
+  "value": "Pine cone",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Feedstock",
+  "value": "Wood bark",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Feedstock",
+  "value": "Cocopeat",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Feedstock",
+  "value": "Red pepper stalk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Feedstock",
+  "value": "Palm kernel shell",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Modification",
+  "value": "CO2 activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P110",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P111",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P111",
+  "facet": "Contaminant",
+  "value": "toluene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P111",
+  "facet": "Contaminant",
+  "value": "xylene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P112",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P112",
+  "facet": "Contaminant",
+  "value": "benzene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P114",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P114",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P116",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P116",
+  "facet": "Modification",
+  "value": "red earth clay composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P116",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P117",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P117",
+  "facet": "Modification",
+  "value": "red earth clay composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P117",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P118",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P118",
+  "facet": "Modification",
+  "value": "clay composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P118",
+  "facet": "Contaminant",
+  "value": "antibiotics",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P119",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P119",
+  "facet": "Modification",
+  "value": "colloidal biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P119",
+  "facet": "Contaminant",
+  "value": "oxytetracycline",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P120",
+  "facet": "Feedstock",
+  "value": "MSW compost residue",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P120",
+  "facet": "Contaminant",
+  "value": "landfill leachate",
+  "group": "Mixed waste streams",
+  "nature": "Other / mixed",
+  "specific": "no"
+ },
+ {
+  "id": "P121",
+  "facet": "Modification",
+  "value": "nano-biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P123",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P123",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P123",
+  "facet": "Contaminant",
+  "value": "caffeine",
+  "group": "Pharmaceuticals & personal-care products",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P124",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P124",
+  "facet": "Modification",
+  "value": "colloidal biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P124",
+  "facet": "Contaminant",
+  "value": "antibiotics",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P124",
+  "facet": "Contaminant",
+  "value": "pesticides",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P125",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P125",
+  "facet": "Modification",
+  "value": "colloidal biochar",
+  "group": "Size engineering (colloidal / nano / milled)",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P125",
+  "facet": "Modification",
+  "value": "halloysite composite",
+  "group": "Clay & mineral composites",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P125",
+  "facet": "Contaminant",
+  "value": "ciprofloxacin",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P126",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P126",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P127",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P127",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P127",
+  "facet": "Contaminant",
+  "value": "copper",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P128",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P129",
+  "facet": "Contaminant",
+  "value": "RO reject (hardness, fluoride, ions)",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P130",
+  "facet": "Contaminant",
+  "value": "sulfonamides",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P130",
+  "facet": "Contaminant",
+  "value": "tetracyclines",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P132",
+  "facet": "Contaminant",
+  "value": "arsenic",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P135",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P135",
+  "facet": "Contaminant",
+  "value": "nickel",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P135",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P135",
+  "facet": "Contaminant",
+  "value": "manganese",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P136",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P136",
+  "facet": "Contaminant",
+  "value": "nickel",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P136",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P136",
+  "facet": "Contaminant",
+  "value": "manganese",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P137",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P138",
+  "facet": "Feedstock",
+  "value": "Soybean stover",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P138",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P138",
+  "facet": "Contaminant",
+  "value": "copper",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P138",
+  "facet": "Contaminant",
+  "value": "antimony",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P139",
+  "facet": "Feedstock",
+  "value": "Rice husk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P139",
+  "facet": "Modification",
+  "value": "unspecified modification",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P139",
+  "facet": "Contaminant",
+  "value": "carbofuran",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P140",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P140",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P142",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P143",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P143",
+  "facet": "Contaminant",
+  "value": "nickel",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P143",
+  "facet": "Contaminant",
+  "value": "manganese",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P143",
+  "facet": "Contaminant",
+  "value": "perchlorate",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P144",
+  "facet": "Contaminant",
+  "value": "RO reject (hardness, fluoride, ions)",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P146",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P146",
+  "facet": "Feedstock",
+  "value": "Rice husk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P146",
+  "facet": "Contaminant",
+  "value": "carbofuran",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P147",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P147",
+  "facet": "Contaminant",
+  "value": "glyphosate",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P148",
+  "facet": "Feedstock",
+  "value": "Rice husk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P148",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P148",
+  "facet": "Contaminant",
+  "value": "glyphosate",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P149",
+  "facet": "Feedstock",
+  "value": "Coconut shell",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P149",
+  "facet": "Contaminant",
+  "value": "cadmium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P149",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P150",
+  "facet": "Feedstock",
+  "value": "Date palm waste",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P150",
+  "facet": "Contaminant",
+  "value": "cadmium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P151",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P151",
+  "facet": "Contaminant",
+  "value": "landfill leachate",
+  "group": "Mixed waste streams",
+  "nature": "Other / mixed",
+  "specific": "no"
+ },
+ {
+  "id": "P152",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P152",
+  "facet": "Contaminant",
+  "value": "sulfamethazine",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P153",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P153",
+  "facet": "Contaminant",
+  "value": "carbofuran",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P155",
+  "facet": "Feedstock",
+  "value": "Rice husk",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P155",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P155",
+  "facet": "Contaminant",
+  "value": "glyphosate",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P156",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P156",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P157",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P158",
+  "facet": "Contaminant",
+  "value": "RO reject (hardness, fluoride, ions)",
+  "group": "Anions, nutrients & salinity",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P159",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P159",
+  "facet": "Contaminant",
+  "value": "landfill leachate",
+  "group": "Mixed waste streams",
+  "nature": "Other / mixed",
+  "specific": "no"
+ },
+ {
+  "id": "P159",
+  "facet": "Contaminant",
+  "value": "VOCs",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "no"
+ },
+ {
+  "id": "P160",
+  "facet": "Feedstock",
+  "value": "Burcucumber (Sicyos angulatus)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P160",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P160",
+  "facet": "Contaminant",
+  "value": "sulfamethazine",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P161",
+  "facet": "Feedstock",
+  "value": "Date palm waste",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P162",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P162",
+  "facet": "Contaminant",
+  "value": "nickel",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P162",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P162",
+  "facet": "Contaminant",
+  "value": "manganese",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P163",
+  "facet": "Feedstock",
+  "value": "Burcucumber (Sicyos angulatus)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P163",
+  "facet": "Modification",
+  "value": "acid activation",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P163",
+  "facet": "Contaminant",
+  "value": "sulfamethazine",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P164",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P164",
+  "facet": "Contaminant",
+  "value": "copper",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P165",
+  "facet": "Feedstock",
+  "value": "Soybean stover",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P165",
+  "facet": "Contaminant",
+  "value": "antimony",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P166",
+  "facet": "Feedstock",
+  "value": "Soybean stover",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P166",
+  "facet": "Contaminant",
+  "value": "trichloroethylene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P167",
+  "facet": "Feedstock",
+  "value": "Municipal solid waste",
+  "group": "Municipal & urban waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P167",
+  "facet": "Contaminant",
+  "value": "benzene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P168",
+  "facet": "Contaminant",
+  "value": "glyphosate",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P169",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P169",
+  "facet": "Contaminant",
+  "value": "crystal violet",
+  "group": "Dyes",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P171",
+  "facet": "Feedstock",
+  "value": "Tea waste",
+  "group": "Food & kitchen waste",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P171",
+  "facet": "Modification",
+  "value": "steam activation",
+  "group": "Physical activation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P171",
+  "facet": "Contaminant",
+  "value": "sulfamethazine",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P172",
+  "facet": "Feedstock",
+  "value": "Burcucumber (Sicyos angulatus)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P172",
+  "facet": "Contaminant",
+  "value": "sulfamethazine",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P173",
+  "facet": "Feedstock",
+  "value": "Burcucumber (Sicyos angulatus)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P173",
+  "facet": "Contaminant",
+  "value": "sulfamethazine",
+  "group": "Antibiotics",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P174",
+  "facet": "Feedstock",
+  "value": "Buffalo weed (Ambrosia trifida)",
+  "group": "Invasive & wild plants",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P174",
+  "facet": "Contaminant",
+  "value": "trichloroethylene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P175",
+  "facet": "Contaminant",
+  "value": "carbofuran",
+  "group": "Pesticides & herbicides",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P176",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P176",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P177",
+  "facet": "Feedstock",
+  "value": "Soybean stover",
+  "group": "Crop & herbaceous residues",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P177",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P177",
+  "facet": "Contaminant",
+  "value": "copper",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P177",
+  "facet": "Contaminant",
+  "value": "antimony",
+  "group": "Metalloids (As, Sb)",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P178",
+  "facet": "Contaminant",
+  "value": "lead",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P178",
+  "facet": "Contaminant",
+  "value": "copper",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P179",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P179",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P180",
+  "facet": "Feedstock",
+  "value": "Pine needle",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P180",
+  "facet": "Contaminant",
+  "value": "trichloroethylene",
+  "group": "VOCs & chlorinated solvents",
+  "nature": "Organic",
+  "specific": "yes"
+ },
+ {
+  "id": "P183",
+  "facet": "Modification",
+  "value": "nitrogen doping",
+  "group": "Chemical activation & functionalisation",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P184",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P184",
+  "facet": "Contaminant",
+  "value": "chromium",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P185",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P185",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ },
+ {
+  "id": "P186",
+  "facet": "Feedstock",
+  "value": "Gliricidia sepium (dendro bioenergy waste)",
+  "group": "Woody & forestry",
+  "nature": "",
+  "specific": "yes"
+ },
+ {
+  "id": "P186",
+  "facet": "Contaminant",
+  "value": "nickel",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "yes"
+ },
+ {
+  "id": "P187",
+  "facet": "Contaminant",
+  "value": "metals",
+  "group": "Heavy metals",
+  "nature": "Inorganic",
+  "specific": "no"
+ }
+]
